@@ -1,0 +1,15 @@
+name: workfloe #give it a name 
+on: workfloe_dispatch     # just like name reserved 
+jobs:                     # saying we have a bunch of jobs 
+  first-job:             # sub class of job 
+    runs-on: ubuntu-latest         # excutes the jobs 
+    steps:                         #steps that should be done
+      - name: print hello           #creatin  steps - first then write
+        run:   echo "hello"      # defining a command that would used 
+      - name: print bye      
+        run: echo 'bye'
+      
+  
+    
+
+
