@@ -1,4 +1,4 @@
-name: workfloe #give it a name 
+name: workflow #give it a name 
 on: workflow_dispatch     # just like name reserved 
 jobs:                     # saying we have a bunch of jobs 
   first-job:             # sub class of job 
