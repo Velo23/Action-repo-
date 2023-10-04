@@ -1,5 +1,5 @@
 name: workfloe #give it a name 
-on: workfloe_dispatch     # just like name reserved 
+on: workflow_dispatch     # just like name reserved 
 jobs:                     # saying we have a bunch of jobs 
   first-job:             # sub class of job 
     runs-on: ubuntu-latest         # excutes the jobs 
